@@ -1,0 +1,8 @@
+1.- inicializamos el proyecto:
+npm init -y
+
+2.- instalamos librerias:
+npm i express bcryptjs cors dotenv jsonwebtoken mongoose morgan helmet
+
+3.- instalamos librerias para usar las ultimas caracteristicas de EcmaScript, usamos babel como dependencia de desarrollo para transpilar codigo
+npm i @babel/core @babel/cli @babel/node @babel/preset-env nodemon -D
